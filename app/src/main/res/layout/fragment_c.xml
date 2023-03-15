@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   * Food App
+   * https://www.instagram.com/adityatprtma/
+   * Created on 08-march-2023.
+   * Created by : Adityatprtma
+   -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AE60ED"
+    android:orientation="vertical"
+    tools:context="FragmentB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="316dp"
+            android:layout_height="267dp"
+            android:layout_gravity="center"
+            android:src="@drawable/img3"
+            tools:ignore="RtlCompat"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/playfair_display_black"
+            android:letterSpacing="0.03"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="we have\n5000+ review\non our app"
+            android:textColor="#151515"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:layout_width="339dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:fontFamily="sans-serif-light"
+            android:letterSpacing="0.01"
+            android:lineSpacingExtra="3sp"
+            android:text="Kami memiliki ulasan 5000+\npengguna, Anda dapat memeriksa\n langsing di app store"
+            android:textAlignment="center"
+            android:textColor="#151515"
+            android:textSize="18sp"
+            tools:ignore="RtlCompat" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/bg_btn"
+        android:text="Get Started"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+</LinearLayout>
